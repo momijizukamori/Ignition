@@ -1,4 +1,3 @@
-
 # Ignition
 
 ## What does it do?
@@ -6,6 +5,8 @@
 Ignition is a dead simple micro CMS for sites that are too small for WordPress and other CMS software. It takes seconds to set up, and works on just about any website with very little effort. For instance, I use it to quickly convert static websites into client-editable websites on a budget.
 
 Ignition makes use of [Redbean](http://redbeanphp.com), a tiny ORM that automatically handles table creation and object management. The code is included as-is in redbean.php.
+
+![Ignition in action](http://i.imgur.com/R9lAm.png)
 
 ## How to use
 
@@ -32,6 +33,8 @@ Although a fallback function is present, the strings used by Ignition use gettex
 The name of the block is simply used to identify the block. This also means you can reuse a block at different places on your site.
 
 ### Editing blocks of text
+
+![The login page](http://i.imgur.com/2bE68.png)
 
 1. Add ?login at the end of your URL to connect
 1. Once logged in, you will be able to edit your blocks.
